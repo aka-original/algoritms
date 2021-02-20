@@ -6,6 +6,7 @@ def is_number(x):
             return False
         divisor+=1
     return True
+#раскладывает введенное составное число на простые
 def factorize_number(x):
     divisor=2
     while x>1:
