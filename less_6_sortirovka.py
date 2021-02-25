@@ -55,7 +55,7 @@ def countin_sort(A:list):
                 A[j] = k
                 j += 1
 
-
+#тесты работоспособности
 
 def test_sort(sort_algorithm):
     print('тестирую - ', sort_algorithm.__doc__)
